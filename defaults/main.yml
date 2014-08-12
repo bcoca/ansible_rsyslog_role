@@ -1,3 +1,9 @@
 ---
 # defaults file for rsyslog
 rsyslog_repo_version: v7-stable
+
+# ES defaults
+elasticsearch_server: localhost
+elasticsearch_port: 9200
+elasticsearch_rsyslog_queue_size: 5000
+elasticsearch_rsyslog_batch_size: 300
