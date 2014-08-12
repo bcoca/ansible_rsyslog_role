@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: Brian Coca <briancoca+dev@gmail.com>
+  description: install rsyslog from rsyslog ppa/apt repo
+  company:
+  license:
+   - GPLv2
+  min_ansible_version: 1.7
+  platforms:
+  - name: Ubuntu
+    versions:
+        - trusty
+  categories:
+    - monitoring
+    - system
+dependencies: []

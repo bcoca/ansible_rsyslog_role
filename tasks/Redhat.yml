@@ -1,0 +1,3 @@
+---
+- name: add repo
+  apt_repository: repo="ppa:adiscon/{{rsyslog_repo_version}}"

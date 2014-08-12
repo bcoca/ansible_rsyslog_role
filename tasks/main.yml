@@ -1,0 +1,7 @@
+---
+- include: "{{ansible_os_family}}.yml"
+
+- name: rsyslog started
+  service: name=rsyslog state=started
+
+# put configs
